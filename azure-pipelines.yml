@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: aws-hosted-agent
 
 variables:
   buildConfiguration: 'Release'
