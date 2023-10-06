@@ -13,5 +13,4 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- script: dotnet build 
-  displayName: 'dotnet build $(buildConfiguration)'
+- script: wget https://download.visualstudio.microsoft.com/download/pr/d97d1625-d7ed-444c-a7e9-e7b469842960/d8b97220d0d79119e3026da2b956854e/dotnet-sdk-6.0.414-linux-x64.tar.gz
