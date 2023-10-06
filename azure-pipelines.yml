@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: aws-hosted-agent
+  vmImage: myagentpool
 
 variables:
   buildConfiguration: 'Release'
